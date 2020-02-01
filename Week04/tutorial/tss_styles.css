@@ -57,12 +57,12 @@ body > footer address {
 
 
 /* Heading Styles */
-h1 {
+article#about_tss h1 {
    color:white;
    background-color:rgb(222, 128, 60);
 }
 
-h2 {
+article#about_tss h2 {
    color:white;
    background-color:rgb(235, 177, 131);
 }
