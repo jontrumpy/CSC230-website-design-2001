@@ -99,6 +99,10 @@ aside {
 
 
 /* Navigation Styles */	
+nav > ul {
+   line-height: 2em;
+   list-style-type: none;
+}
 
 nav {
    font-size: 0.8em;
