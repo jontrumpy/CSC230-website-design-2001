@@ -110,6 +110,8 @@ nav {
 }
 nav > ul {
    line-height: 2em;
+   list-style-type: none;
+   padding-left: 5px;
 }
 nav > ul {
    list-style-type: none;
@@ -158,6 +160,7 @@ aside blockquote::after {
 article#about_tss ul {
    list-style-image: url(runicon.png);
 }
+
 article.syllabus ol {
    list-style-type: upper-roman;
 }
