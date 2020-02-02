@@ -99,6 +99,9 @@ aside {
 
 
 /* Navigation Styles */	
+nav > ul > li.newgroup {
+   margin-top: 20px;
+}
 nav > ul {
    line-height: 2em;
    list-style-type: none;
