@@ -100,11 +100,15 @@ nav>ul>li>a:visited, nav>ul>li>a:link{
    color:rgb(151, 151, 151);
    text-decoration:underline;
 }
-
-
+nav>ul>li>a:hover,nav>ul>li>a:active{
+   color:rgb(151, 151, 151);
+   text-decoration:underline;
+}
 
 /* Paragraph Styles */
-
+p{
+   margin:10px 30px 10px 0px;
+}
 
 
 /* List Styles */
