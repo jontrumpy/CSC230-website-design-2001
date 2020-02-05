@@ -52,7 +52,11 @@ section#tss_coaches> h1{
    background-color:hsl(27, 6%, 21%);
    padding-left:10px;
 }
-
+article.coach_bio h2{
+   font-size:1.6em;
+   font-weight:normal;
+   color:rgb(240, 125, 0);
+}
 
 /* Blockquote Styles */
 
