@@ -1,7 +1,20 @@
 @charset "utf-8";
 @font-face{
-   font-family:'cac_champagne';
-   src:url(CHAMPGNE.TTF);
+   font-family: Champagne;
+   src: url(cac_champagne.woff) format('woff'),
+   url(cac_champagne.ttf) format('ttf');
+   
+}
+@font-face {
+   font-family: Grunge;
+   src: url(1942.woff) format('woff'),
+   url(1942.ttf) format('ttf');
+
+}
+@font-face {
+   font-family: Dobkin;
+   src: url(DobkinPlain.woff) format('woff'),
+   url(DobkinPlain.ttf) format('ttf');
 }
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -100,12 +113,12 @@ section.playbill h1 {
 
 /* Description List Styles */
 
-d1 dt {
+dl dt {
    font-size: 1.3em;
    font-weight: bold;
    color: hsla(0, 0%, 0%, 0.4);
 }
-d1 dd {
+dl dd {
    font-size: 1.3em;
    margin-left: 0;
    margin-bottom: 10px;
