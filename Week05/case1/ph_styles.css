@@ -18,8 +18,22 @@
 
 
 /* Structural Styles */
+html {
+   background-color: hsl(91, 8%, 56%);
+}
+body{
+   background-color: hsl(58, 31%, 84%);
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+body > p {
+   font-size: 1.1em;
+   text-align: center;
 
 }
+header {
+   background-color: black;
+}
+
 p {
    margin: 0;
    padding: 5px 25px 25px 25px;
@@ -34,7 +48,22 @@ address {
 }
 
 /* Navigation Styles */
-
+nav a {
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+nav a:link,
+nav a:visited {
+   color: white;
+   text-decoration: none;
+   background-color: hsla(0, 0%, 42%, 0.4);
+}
+nav a:hover,
+nav a:active {
+   color: hsla(0, 0%, 100%, 0.7);
+   background-color: hsla(0, 0%, 42%, 0.7);
+}
 
 
 
