@@ -56,6 +56,10 @@ body > header > nav {
    width: 30%;
 }
 
+body > header > nav a {
+   display: block;
+   width: 100%;
+}
 
 
 
