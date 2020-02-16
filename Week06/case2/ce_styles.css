@@ -74,3 +74,11 @@ div[class^="cell"]>a {
 }
 
 /* Footer Styles */
+footer {
+   position: absolute;
+   right: 8px;
+   bottom: 8px;
+   color: rgb(143, 33, 38);
+   text-align: right;
+   font-size: 2vmin;
+}
