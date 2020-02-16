@@ -62,7 +62,15 @@ nav a:hover, nav a:active {
 }
 
 /* DIV Container Styles */
-
-
+div*container{
+   padding-right: 8px;
+   padding-bottom: 8px;
+}
+div[class^="cell"]>a {
+   display: block;
+   width: 100%;
+   padding-left: 8px;
+   padding-top: 8px;
+}
 
 /* Footer Styles */
