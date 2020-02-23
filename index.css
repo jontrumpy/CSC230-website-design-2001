@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Review Assignment
+   
+   Index Layout Styles
+   Filename: ind_layout.css
+
+*/
+
+/* Page Header Styles */
+
+h1{
+    color:rgb(253, 7, 7);
+text-align:center;
+}
+h3{
+    color:rgb(245, 245, 245);
+}
+body {
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+a {
+	color: #00e;
+}
+a:visited {
+	color: #551a8b;
+}
+a:hover {
+	color: rgb(247, 6, 6);
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
+/*Body Styles */
+body > header  {
+    background-color: rgb(0, 0, 0);
+   
+ }
+ body > header {
+    font-size: 1.9em;
+    margin: 0.0em 0;
+    padding: 10px;
+ }
+ body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90.00%;
+	padding-left: 0.55%;
+	padding-right: 0.55%;
+	clear: none;
+	float: none;
+    min-height: 100%;
+    text-decoration: rgb(31, 27, 27);
+    text-align:center;
+}
+nav {
+	width: 60%;
+	float: none;
+	margin: 6% 2% 0% 0%;
+}
+article {
+	width: 83%;
+	float: none;
+	font-size: 1.5em;
+	text-align: center;
+}
+ 
+nav ul li  {
+	color: rgb(49, 15, 15);
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+nav ul li a:visited {
+	color: #222;
+}
+nav ul li a:hover {
+	background-color: rgb(4, 0, 250);
+	color: rgb(15, 7, 7);
+}
+nav ul li a:focus {
+	outline: thin dotted;
+}
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
+body {
+	margin: 1%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.0em;
+}
+body article {
+	font-size: 1.45em;
+}
+cite {
+    color: rgb(110, 110, 255);
+ }
+ nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}  
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+ /* Footer Styles */
+
+footer {
+    color: rgb(199, 122, 122);
+    background-color: rgb(0, 0, 0);
+    font-size: 0.9em;
+    padding: 10px 0px;
+    text-align: center;
+ }
+
+
+ @media only screen and (min-width: 769px) {
+    html, body {
+        font-size: 20px;
+    }
+    
+    html {
+        background-color: rgb(153, 43, 43);
+        margin: 0px auto;
+    }
+    body {
+        width: 88.2%;
+        max-width: 900px;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        margin: 0px auto auto auto;
+        clear: none;
+        float: none;
+        background-color: rgb(255, 255, 255);
+        -moz-box-shadow: rgba(54, 17, 17, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+        -webkit-box-shadow: rgba(202, 18, 18, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+        box-shadow: rgba(37, 26, 26, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+    }
+}
+    
