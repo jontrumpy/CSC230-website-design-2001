@@ -20,26 +20,30 @@ figure {
    border-width: 25px;
    border-image: url(tb_border.png) 50 repeat;
    margin: 20px auto 0px;
-   opacity: 0.55;
-   width:80%;
+   width: 80%;
+opacity: 0.55;
+   
 }
 figure img {
    display: block;
    width: 100%;
+  
 }
 figure figcaption {
    background-color: white;
    font-family: 'Palatino Linotype', Palatino,
    'Times New Roman', serif;
    font-style: italic;
-   padding: 10px 0;
+   padding: 10px 0px;
    text-align: center;
+   font-size: 1.5em;
 }
 
 
 /* HTML Styles */
 html {
    background-image: url(tb_back1.png);
+   background-attachment: fixed;
 }
 
 
@@ -56,7 +60,7 @@ article {
 }
 article header h1 {
    text-shadow: rgb(181, 211, 181) 2px 2px 1px,
-   rgba(21, 21, 21, 0.66) 5px 5px 25px;
+   rgba(21, 21, 21, 0.6) 5px 5px 25px;
   
 }
 
@@ -73,10 +77,11 @@ body {
 
 /* Aside Styles */
 aside {
-   background: radial-gradient(white, rgb(151, 222, 151), rgb(81, 125, 81));
+   
    border: 4px double rgb(45, 93, 62);
    border-radius: 30px;
-   box-shadow: rgba(51, 91, 51, 0.4) 0px 0px 20px 10px;
+   box-shadow: rgba(51, 91, 51) 2px 2px 20px;
+   background: radial-gradient(white, rgb(151, 222, 151), rgb(81, 125, 81));
 }
 
 body > article > header > figure {
@@ -84,6 +89,7 @@ body > article > header > figure {
    border-style: solid;
    border-image: url(tb_border.png) 50 repeat;
 }
+
 /* Footer Styles */
 footer {
    background: linear-gradient(345deg, rgb(172, 232, 172), rgb(21, 35, 21) 80%);
