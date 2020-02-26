@@ -20,7 +20,7 @@ box-shadow: rgb(51, 51, 51) 10px 10px 50px, rgb(51, 51, 51) -10px 0px 50px;
 
 /* Navigation Tabs List Styles */
 body > header nav.tabs {
-   background: url(../img/sf_back1.png) no-repeat;
+   background: url(sf_back1.png) no-repeat;
    background-position: center center;
    background-size: cover;
 }
@@ -55,7 +55,7 @@ section#center article {
 /* Blockquote Styles */
 
 blockquote {
-   background: url(../img/sf_speech.png) no-repeat;
+   background: url(sf_speech.png) no-repeat;
    background-size: 100% 100%;
    filter: drop-shadow(5px 5px 10px rgb(51, 51, 51));
 }
