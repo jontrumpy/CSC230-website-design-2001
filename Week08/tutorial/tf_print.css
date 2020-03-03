@@ -75,7 +75,15 @@ width: 65%;
 
 
 /* Hypertext Styles */
-
+a {
+   color: black;
+   text-decoration: none;
+}
+a::after {
+   content: " (" attr(href) ") ";
+   font-weight: bold;
+   word-wrap: break-word;
+}
 
 
 
