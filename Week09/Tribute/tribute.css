@@ -13,7 +13,25 @@ body {
        color: rgb(7, 5, 5);
        background-color: rgb(250, 249, 249);
    }
+   .nav {
+       color: black;
+   }
  
- 
+
+a {
+	color: rgb(238, 0, 0);
+}
+a:visited {
+	color: #551a8b;
+}
+a:hover {
+	color: rgb(6, 22, 247);
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
  
 
