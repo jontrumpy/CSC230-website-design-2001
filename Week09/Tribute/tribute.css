@@ -1,27 +1,19 @@
+
+
+
 body {
     background-image: url("image7.jpg");
-    background-color: #cccccc;
+    background-color: #fd0505;
+    color: rgb(5, 5, 5);
+  font-style: bold;
+   
    }
-body{
-    margin: 60px;
+   blockquote {
+       border: 1px solid rgb(5, 5, 5);
+       color: rgb(7, 5, 5);
+       background-color: rgb(250, 249, 249);
+   }
  
-  }
-  .header{
-    text-align: center;
-  }
-  #imagetext{
-    background-color: rgb(73, 221, 231) !important;
-  }
-  .main{
-    max-width: 660px; /* for  below IE7 use `width: 660px;` */
-      margin: 0 auto;
-  }
-  li span{
-    font-weight: bold;
-  }
-  .footer{
-    text-align:center;
-  }
-  #codedby{
-    text-align:center;
-  }
+ 
+ 
+
