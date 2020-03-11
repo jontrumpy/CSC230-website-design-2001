@@ -1,14 +1,16 @@
+body {
+    background-image: url("image7.jpg");
+    background-color: #cccccc;
+   }
 body{
     margin: 60px;
-  }
-  .container-fluid{
-    background-color:rgb(238, 238, 238);
+ 
   }
   .header{
     text-align: center;
   }
   #imagetext{
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(73, 221, 231) !important;
   }
   .main{
     max-width: 660px; /* for  below IE7 use `width: 660px;` */
